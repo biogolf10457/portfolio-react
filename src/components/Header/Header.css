@@ -6,6 +6,7 @@
     width: 100%;
     transform-style: preserve-3d;
     z-index: -1;
+    color: rgb(227, 235, 238);
 }
 
 .headerTitle {
