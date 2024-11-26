@@ -1,0 +1,80 @@
+.projectCard {
+  border-radius: 15px;
+  width: 25vw;
+  aspect-ratio: 0.7;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 40vw;
+  transition: 200ms;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+.projectCard:hover {
+  background-size: 50vw;
+}
+
+.projectCardTitle {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+  background-color: rgba(27, 30, 72, 0.8);
+  backdrop-filter: blur(2px);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 1.25rem;
+}
+
+.projectFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45%;
+  /* background: linear-gradient(
+    180deg,
+    rgba(242, 101, 34, 0) 10%,
+    rgba(240, 103, 36, 0.8) 20%
+  ); */
+  background-color: rgba(228, 247, 251, 0.8);
+  backdrop-filter: blur(2px);
+  padding: 1.25rem 2rem;
+}
+
+.projectStacks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.projectYear {
+  color: black;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 2px rgb(39, 39, 39); */
+}
+
+.stacksLogo {
+  padding: 4px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 10px rgb(39, 39, 39);
+}
+
+.projectCardDescription > p {
+  font-size: 1rem;
+  /* font-weight: 500; */
+  line-height: 1.3rem;
+  color: black;
+  /* text-shadow: 1px 1px 2px rgb(39, 39, 39); */
+}
+
+.projectButtonGroup {
+  display: flex;
+  justify-content: space-around;
+}

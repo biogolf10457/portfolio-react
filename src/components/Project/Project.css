@@ -1,0 +1,36 @@
+.projectContainer {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding: 7.5rem 10vw;
+  background-color: rgb(27, 30, 72);
+  z-index: 1;
+}
+
+.projectGroup {
+  margin-top: 4rem;
+}
+
+.projectTitle {
+  text-align: center;
+  color: rgb(227, 235, 238);
+  margin-bottom: 2rem;
+}
+
+.projectGroupName {
+  font-size: 1.6rem;
+  font-style: italic;
+  color: rgb(227, 235, 238);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+  color: rgb(0, 17, 255);
+  background-color: rgb(255, 153, 0);
+  border-radius: 10px;
+}
+
+.projectCardContainer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 1rem 1rem;
+}

@@ -1,6 +1,7 @@
-import Navbar from "./components/Navbar/Navbar.js";
-import Header from "./components/Header/Header.js";
-import Experience from "./components/Experience/Experience.js";
+import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
+import Experience from "./components/Experience/Experience";
+import Project from "./components/Project/Project";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Header />
       <Experience />
+      <Project />
     </div>
   );
 }
