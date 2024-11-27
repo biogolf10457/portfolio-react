@@ -2,11 +2,12 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
-  transform-style: preserve-3d;
-  z-index: -1;
-  color: rgb(227, 235, 238);
+  color: #dfcec7;
+  font-weight: bold;
+  /* text-shadow: 2px 2px 2px rgb(116, 165, 213); */
+  background: linear-gradient(180deg, #095b93 60%, #3771bb 75%, #6f89d4 90%);
 }
 
 .headerTitle {
@@ -17,6 +18,8 @@
 }
 
 .headerName {
+  color: #ffcc57;
+  text-shadow: none;
   font-size: 6rem;
   font-style: italic;
   font-weight: 700;
@@ -30,5 +33,18 @@
 #svg1 {
   position: absolute;
   bottom: 0;
-  left: -20px;
+}
+
+#svg2 {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .headerName {
+    font-size: 2.5rem;
+  }
+  .headerDescription {
+    font-size: 1.2rem;
+  }
 }

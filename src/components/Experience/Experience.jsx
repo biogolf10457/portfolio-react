@@ -12,11 +12,18 @@ const Content = () => {
       <table className="works">
         <tbody>
           <tr>
-            <td className="worksDate">Dec 2022 - Jul 2024</td>
-            <td className="worksLogo">
-              <img src={logo} alt="arise" width={"48px"} />
+            <td className="worksDate">
+              <div>Dec 2022 - Jul 2024</div>
             </td>
-            <td className="worksName">Arise by Infinitas</td>
+            <td className="worksLogo">
+              <div className="worksLogoBackground">
+                <img src={logo} alt="arise" width={"48px"} />
+              </div>
+            </td>
+            <td className="worksName">
+              <div>Arise by Infinitas</div>
+              <div className="worksDateMobile">Dec 2022 - Jul 2024</div>
+            </td>
           </tr>
           <tr>
             <td></td>

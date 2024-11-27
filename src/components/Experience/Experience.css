@@ -1,13 +1,13 @@
 .experinceContainer {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    padding: 7.5rem 20vw;
-    background-color: skyblue;
-    z-index: 1;
-  }
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding: 7.5rem 20vw;
+  background-color: #489ac2;
+  z-index: 1;
+}
 
-.experienceTitle{
+.experienceTitle {
   text-align: center;
   color: rgb(27, 30, 72);
   padding-bottom: 2.5rem;
@@ -25,10 +25,16 @@
 }
 
 .worksLogo {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.worksLogoBackground {
   background-color: white;
   border-radius: 50%;
   overflow: hidden;
+  width: fit-content;
+  height: fit-content;
 }
 
 .worksName {
@@ -38,13 +44,18 @@
   width: 75%;
 }
 
+.worksDateMobile {
+  display: none;
+  font-size: 1rem;
+}
+
 .worksDescription {
   font-size: 1.1rem;
   padding-left: 1rem;
   width: 60%;
 }
 
-.worksDescription>ul {
+.worksDescription > ul {
   font-size: 1rem;
   padding-left: 2rem;
 }
@@ -55,7 +66,7 @@
 
 .timelineBar {
   width: 7px;
-  position:absolute;
+  position: absolute;
   top: 2px;
   bottom: 2px;
   left: 50%;
@@ -87,4 +98,19 @@
 
 .skillGroupLogo {
   margin-left: 16px;
+}
+
+@media screen and (max-width: 830px) {
+  .experinceContainer {
+    padding: 7.5rem 5vw;
+  }
+  .worksDate {
+    padding-right: 0;
+  }
+  .worksDate > div {
+    display: none;
+  }
+  .worksDateMobile {
+    display: block;
+  }
 }

@@ -1,7 +1,7 @@
 .projectCard {
   border-radius: 15px;
   width: 25vw;
-  aspect-ratio: 0.7;
+  height: 37rem;
   padding: 0;
   overflow: hidden;
   display: flex;
@@ -9,13 +9,13 @@
   justify-content: space-between;
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 40vw;
+  background-size: auto 70%;
   transition: 200ms;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
 }
 
 .projectCard:hover {
-  background-size: 50vw;
+  background-size: auto 80%;
 }
 
 .projectCardTitle {
@@ -77,4 +77,25 @@
 .projectButtonGroup {
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+  .projectCard {
+    width: 38vw;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .projectCard {
+    width: 80vw;
+    height: 40rem;
+  }
+
+  .projectCardTitle {
+    margin: 1rem;
+  }
+
+  .projectFooter {
+    padding: 1.25rem 1rem;
+  }
 }
