@@ -6,8 +6,10 @@
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .button:hover {
-  background-color: rgb(41, 172, 208);
+  color: rgb(27, 30, 72);
+  background-color: #ffcc57;
 }

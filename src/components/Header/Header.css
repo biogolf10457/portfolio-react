@@ -26,6 +26,11 @@
   padding: 1rem 0 1rem 0;
 }
 
+.nameHighlight {
+  color: #e95018;
+  text-shadow: 2px 2px 0 #ffcc57;
+}
+
 .headerDescription {
   font-size: 1.8rem;
 }

@@ -3,12 +3,18 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="Header">
       <div className="headerTitle">
         <div className="headerDescription">Portfolio</div>
         <div className="headerName">
-          <div>Passakorn</div>
-          <div>Nuchitkachornwut</div>
+          <div>
+            <span className="nameHighlight">P</span>as
+            <span className="nameHighlight">s</span>a
+            <span className="nameHighlight">k</span>orn
+          </div>
+          <div>
+            <span className="nameHighlight">N</span>uchitkachornwut
+          </div>
         </div>
         <div className="headerDescription">
           Web Developer, Game Developer, 3D Animator

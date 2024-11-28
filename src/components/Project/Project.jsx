@@ -7,7 +7,7 @@ const Project = () => {
   let projects = getProjects();
 
   return (
-    <div className="projectContainer">
+    <div className="projectContainer" id="Project">
       <h1 className="projectTitle">Project</h1>
       <div className="projectGroup">
         <div className="projectGroupName">Web Development</div>

@@ -8,7 +8,15 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navTitle">Portfolio</div>
+      <div className="navTitle">
+        <Link to="Header" smooth={true} duration={500}>
+          <img
+            src={`${process.env.PUBLIC_URL}/images/pskn.png`}
+            alt="logo"
+            height="36px"
+          />
+        </Link>
+      </div>
       <div
         className={`${"navHamburger"} ${menuOpen && "navHamburgerOpen"}`}
         onClick={() => setMenuOpen(!menuOpen)}
@@ -18,9 +26,20 @@ const Navbar = () => {
         ))}
       </div>
       <div className={`${"navMenu"} ${menuOpen && "navMenuOpen"}`}>
-        <Link className="navMenuItem">Home</Link>
-        <Link className="navMenuItem">Experience</Link>
-        <Link className="navMenuItem">Project</Link>
+        <Link className="navMenuItem" to="Header" smooth={true} duration={500}>
+          Home
+        </Link>
+        <Link
+          className="navMenuItem"
+          to="Experience"
+          smooth={true}
+          duration={500}
+        >
+          Experience
+        </Link>
+        <Link className="navMenuItem" to="Project" smooth={true} duration={500}>
+          Project
+        </Link>
       </div>
     </nav>
   );
