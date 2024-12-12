@@ -47,24 +47,25 @@ const projects = {
       stacks: ["unreal-engine.svg"],
       year: "2020",
     },
-    {
-      id: "g2",
-      title: "Wizard Run",
-      description:
-        "The two players 2D running game developed using Unity. This project was developed for learning Unity and working with team in the Workshop. We learned to marketing, pitching idea, game development and presenting game to the persons from game industry.",
-      codeURL: "https://github.com/biogolf10457/-ParallelWorld",
-      demoURL: null,
-      picture: "WizardRun.png",
-      stacks: ["unity.svg"],
-      year: "2020",
-    },
+    // {
+    //   id: "g2",
+    //   title: "Wizard Run",
+    //   description:
+    //     "The two players 2D running game developed using Unity. This project was developed for learning Unity and working with team in the Workshop. We learned to marketing, pitching idea, game development and presenting game to the persons from game industry.",
+    //   codeURL: "https://github.com/biogolf10457/-ParallelWorld",
+    //   demoURL: null,
+    //   picture: "WizardRun.png",
+    //   stacks: ["unity.svg"],
+    //   year: "2020",
+    // },
     {
       id: "g1",
       title: "Big-Gun",
       description:
         "The top-eye view battle tanks game developed using Java. This project was developed for learning OOP concept.",
       codeURL: "https://github.com/H3N9/Tank",
-      demoURL: null,
+      demoURL:
+        "https://drive.google.com/file/d/1WdA96pTY7KMtVEDfNSCzh9Ay5xMTDqe8/view?usp=sharing",
       picture: "BigGun.png",
       stacks: ["java.svg"],
       year: "2019",
@@ -91,6 +92,18 @@ const projects = {
       codeURL: null,
       demoURL: "https://www.facebook.com/biogolf/videos/3241970292532884",
       picture: "Covid19.png",
+      stacks: ["maya.svg"],
+      year: "2020",
+    },
+    {
+      id: "d3",
+      title: "Knights and Dragon",
+      description:
+        "The first project when I learned MAYA for the first time. I am responsible for modeling both knights, UVs and texturing knights and dragon, rigging 2nd knight and dragon, and animate 0.28s - 0.37s of the sequence in the video.",
+      codeURL: null,
+      demoURL:
+        "https://drive.google.com/file/d/1JyrnEIGD47_DnBw0cskwkpNjxvemsYqX/view?usp=sharing",
+      picture: "KnightsAndDragon.png",
       stacks: ["maya.svg"],
       year: "2020",
     },
