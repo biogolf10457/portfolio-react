@@ -1,6 +1,28 @@
 const projects = {
   webDevelopment: [
     {
+      id: "w5",
+      title: "My Character Collection",
+      description:
+        "The website to collect your original character information.My personal project developed using MERN stack.",
+      codeURL: "https://github.com/biogolf10457/my-character-collection",
+      demoURL: "https://my-character-collection.netlify.app/",
+      picture: "mycharactercollection.png",
+      stacks: ["react.svg", "tailwind.svg", "node-js.svg", "mongodb.svg"],
+      year: "2025",
+    },
+    {
+      id: "w4",
+      title: "Meaw Pictures",
+      description:
+        "Meaw Pictures is the website to get random cat pictures from The Cat API. Purpose of this project is learning React, Tailwind CSS, and Typescript.",
+      codeURL: "https://github.com/biogolf10457/meaw-pictures",
+      demoURL: "https://biogolf10457.github.io/meaw-pictures/",
+      picture: "meawpictures.png",
+      stacks: ["react.svg", "tailwind.svg", "typescript.svg"],
+      year: "2024",
+    },
+    {
       id: "w3",
       title: "Krung Tai Nam",
       description:
@@ -35,6 +57,17 @@ const projects = {
     },
   ],
   gameDevelopment: [
+    {
+      id: "g4",
+      title: "Bugs Catcher",
+      description:
+        "The game developed using PhaserJs. You will play as the spider who collecting bugs running through your territory.",
+      codeURL: "https://github.com/biogolf10457/bugs-catcher",
+      demoURL: "https://bugscatchergame.netlify.app/",
+      picture: "bugscatcher.png",
+      stacks: ["javascript.svg"],
+      year: "2025",
+    },
     {
       id: "g3",
       title: "Battle Chess",
